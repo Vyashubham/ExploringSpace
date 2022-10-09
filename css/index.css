@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+nav{
+    /* background-color: brown; */
+
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-section-container{
+    /* background-color: aqua; */
+
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-section-container > img{
+    /* background-color: yellow; */
+
+    height: 65%;
+    width: auto;
+    padding: 0.5rem;
+}
+
+.logo-section-container > a{
+    /* background-color: bisque; */
+
+    padding: 1rem;
+    color: inherit;
+    text-decoration: none;
+}
+.nav-items-container{
+    /* background-color: gold; */
+
+    width: 22%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items-container > a{
+    color: inherit;
+    text-decoration: none;
+}
