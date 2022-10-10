@@ -113,6 +113,9 @@ nav{
 }
 
 .content > h1{
+    /* background-color: brown; */
+
+    /* margin-bottom: 10rem; */
     font-size: 6rem;
     animation: 3s fade-in;
 }
@@ -121,6 +124,78 @@ nav{
     from{opacity: 0; transform: scale(.9 );}
     to{opacity: 1; transform: scale(1);}
 }
+
+.strikeout{
+    border-bottom: .8rem solid #FDDA0D;
+}
+
+.scroll-section{
+    /* background-color: cornflowerblue; */
+
+    height: 10vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-below{
+    /* background-color: burlywood; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 1rem;
+    /* top: 18rem; */
+    
+    /* font-size: 3.5rem !important; */
+}
+.scroll-logo{
+    font-size: 3rem !important;
+    /* padding: 1rem; */
+
+  
+}
+
+.scroll-text{
+    animation: float 1.5s infinite;
+    display: hidden;
+}
+
+@keyframes float {
+    0%{
+        padding: .5rem;
+    }
+    50%{
+        padding: 0rem;
+    }
+    100%{
+        padding: .5rem;
+    }
+
+}
+/* 
+.strikeout {
+
+    position: relative;
+}
+
+.strikeout::after {
+    border-bottom: 2.1rem solid #FDDA0D;
+    content: "";
+    left: 0;
+    line-height: 1em;
+    margin-top: calc(0.005em / 2 * -1);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -1;
+    border-radius: .25rem;
+    /* opacity: ; */
+} */
+
 
 .space-facts{
     /* background-color: blueviolet; */
