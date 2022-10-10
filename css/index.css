@@ -17,13 +17,15 @@ body::-webkit-scrollbar {
 }
 
 video{
+    margin: auto;
     height: 100%;
     width: 100%;
     z-index: -1;
+    border-bottom: 1rem;
 }
 
 .main{
-    position: fixed;
+    position: absolute;
     top: 0;
     height: 100%;
     width: 100%;
@@ -63,6 +65,12 @@ nav{
     animation: 1.8s rotate;
    
 
+}
+
+.logo-text{
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
 }
 
 @keyframes rotate {
@@ -194,14 +202,18 @@ nav{
     z-index: -1;
     border-radius: .25rem;
     /* opacity: ; */
-} */
+/* } */
 
 
 .space-facts{
-    /* background-color: blueviolet; */
-
+    background-color: blueviolet;
+    
+    /* position: absolute; */
     width: 90%;
-    height: 10vh;
+    height: 40vh;
+    
+    /* margin-bottom: 100rem; */
+    z-index: 2;
     margin: auto;
 
     display: flex;
