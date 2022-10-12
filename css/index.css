@@ -155,6 +155,7 @@ nav{
     display:flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .scroll-below{
@@ -246,7 +247,7 @@ nav{
 .space-facts-inner{
     /* background-color: darkblue; */
 
-    width: 85%;
+    width: 80%;
     height: 90%;
 
     display: flex;
@@ -276,6 +277,10 @@ nav{
     
 }
 
+.vert_line{
+    border-right: #50504e solid .1rem;
+}
+
 .fact-title{
     /* background-color: chartreuse; */
     height: 35%;
@@ -284,6 +289,8 @@ nav{
     text-transform: uppercase;
     text-align: center;
     color: #50504e;
+    letter-spacing: .1rem;
+    font-weight: 500;
 
     
 
@@ -325,6 +332,8 @@ footer{
 
 
 .num{
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
     font: 800 40px system-ui;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
