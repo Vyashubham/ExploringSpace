@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="demo">
+<h2>The XMLHttpRequest Object</h2>
+<button type="button" onclick="loadDoc()">Change Content</button>
+</div>
+
+<script>
+const Http = new XMLHttpRequest();
+const url='GET https://newsapi.org/v2/everything?q=space&apiKey=5589b7cfbd824b56b3f7122db64fc56d';
+Http.open("GET", url);
+Http.send();
+
+Http.onreadystatechange = (e) => {
+  console.log(Http.responseText)
+}
+</script>
+
+</body>
+</html>
