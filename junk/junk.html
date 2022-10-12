@@ -8,14 +8,37 @@
 </div>
 
 <script>
-const Http = new XMLHttpRequest();
-const url='GET https://newsapi.org/v2/everything?q=space&apiKey=5589b7cfbd824b56b3f7122db64fc56d';
-Http.open("GET", url);
-Http.send();
+// const Http = new XMLHttpRequest();
+// const url='GET https://newsapi.org/v2/everything?q=space&apiKey=5589b7cfbd824b56b3f7122db64fc56d';
+// Http.open("GET", url);
+// Http.send();
 
-Http.onreadystatechange = (e) => {
-  console.log(Http.responseText)
+// Http.onreadystatechange = (e) => {
+//   console.log(Http.responseText)}
+// fetch('https://newsapi.org/v2/everything?q=space&apiKey=5589b7cfbd824b56b3f7122db64fc56d&pageSize=10&sortBy=popularity')
+//   .then((response) => response.json())
+//   .then((data) => console.log(data));
+//   // const {name, author} = data;
+//   console.log(data.articles);
+
+//   const myObj = JSON.parse(data);
+//   console.log(myObj);
+  // .then((data) => console.log())
+
+  // console.log(Response.blob)
+
+const api_url = 'https://newsapi.org/v2/everything?q=space&apiKey=5589b7cfbd824b56b3f7122db64fc56d&pageSize=10&sortBy=popularity';
+async function news(){
+  const response = await fetch(api_url);
+  const data = await response.json();
+  console.log(data);
+  console.log(data.status); // working
+  console.log(data.articles); //working
+  console.log(data.articles[0].urlToImage);
+
 }
+news();
+
 </script>
 
 </body>
