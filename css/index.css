@@ -314,7 +314,7 @@ footer{
 
 .buffer_div{
     /* position: inherit; */
-    height: 50vh;
+    height: 15vh;
     width: 100vw;
 
     background-color: antiquewhite;
@@ -336,4 +336,11 @@ footer{
     font: 800 40px system-ui;
     font-size: 1.2rem;
     font-weight: 300;
+}
+
+.recent_news{
+    background-color: darkolivegreen;
+
+    height: 70vh;
+    width: 100%;
 }
