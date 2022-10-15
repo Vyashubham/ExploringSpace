@@ -406,7 +406,7 @@ footer{
     width: auto;
     /* height: auto; */
     border-radius: 1rem;
-    object-fit:cover !important;
+    object-fit:cover;
 
 }
 .recent-news-text-container{
