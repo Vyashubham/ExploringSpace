@@ -11,6 +11,10 @@ body{
     color: #fff;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* making scrollbar   */
 body::-webkit-scrollbar {
     width: 0px;
@@ -195,6 +199,11 @@ nav{
 .scroll-text{
     animation: float 1.5s infinite;
     display: hidden;
+}
+
+.scroll-below > a{
+    text-decoration: none;
+    color: inherit;
 }
 
 @keyframes float {
