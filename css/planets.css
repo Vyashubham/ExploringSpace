@@ -1,44 +1,80 @@
 body{
     color: black;
+
+    /* background-image: url(https://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/iss066e161043.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
 }
 
 .carousel{
-    background-color: green;
+    /* background-color: green; */
 
     height: 70vh;
     width: 100%;
 }
 .carousel-inner{
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 
     height: 70vh;
     width: 100%;
    
 }
 
-.planet-container{
-    background-color: gold;
+.carousel-control-prev, .carousel-control-next{
+    /* background-color: gray; */
 
-    height: 60vh;
+    height: 70vh;
+    width: 100%;
+}
+
+.planet-container{
+    /* background-color: gold; */
+
+    height: 90vh;
     width: 100%;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-.planet-desc{
-    background-color: aliceblue;
+.planet-container-inner{
+    /* background-color: chartreuse; */
 
-    height: 90%;
-    width: 45%;
+    height: 70%;
+    width: 85%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
 }
 
-.planet-img{
-    background-color: brown;
+.planet-facts{
+    /* background-color: red; */
+
+    height: 15%;
+    width: 85%;
+}
+.planet-text{
+    /* background-color: aliceblue; */
 
     height: 90%;
     width: 55%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.planet-img{
+    /* background-color: brown; */
+
+    height: 90%;
+    width: 45%;
 
     display: flex;
     justify-content: center;
@@ -46,6 +82,41 @@ body{
 }
 
 .planet-img > img{
-    height: 100%;
+    /* background-color: cornflowerblue; */
+    
+    height: 85%;
     width: auto;
+    
+    animation: 2s fade-in;
+    transform: rotate3d(180deg);
+}
+
+.planet-title{
+    /* background-color: orange; */
+
+    height: 40%;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.planet-title > h1{
+    font-size: 5rem;
+}
+
+.planet-desc{
+    /* background-color: pink; */
+
+    height: 40%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.planet-desc > p{
+    font-size: 1.2rem;
 }
