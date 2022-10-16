@@ -302,7 +302,7 @@ nav{
     font-size: 1.2rem;
 }
 
-footer{
+/* footer{
     background-color: rgb(0, 0, 0);
 
     position: fixed;
@@ -310,7 +310,7 @@ footer{
     height: 30vh;
     width: 100%;
     z-index: 2;
-}
+} */
 
 .buffer_div{
     /* position: inherit; */
@@ -322,7 +322,7 @@ footer{
 .footer{
     background-color:tomato;
 
-    height: 80vh;
+    height: 30vh;
     width: 100VW;
     
     display: flex;
@@ -477,3 +477,116 @@ footer{
     color: #3b3b3a;
     
 }
+
+.pod-section-container{
+    /* background-color: #3b3b3a; */
+
+    height: 95vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    color: #3b3b3a;
+
+}
+
+.pod-heading-container{
+    /* background-color: pink; */
+
+    height: 15%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    
+}
+
+.pod-heading-inner{
+    /* background-color: red; */
+    display: flex;
+
+    height: 90%;
+}
+.pod-heading-inner > p{
+    border-bottom: 0.8rem solid #FDDA0D;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.pod-heading-inner > img{
+    /* background-color: #3b3b3a; */
+    height: 100%;
+    width: auto;
+    
+    
+}
+
+.pod-img-section{
+    /* background-color: orange; */
+
+    height: 60%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pod-img-section > img{
+    height: 90%;
+    width: auto;
+
+    border-radius: .8rem;
+    box-shadow: 0px 20px 23px 0px rgba(0,0,0,0.1);
+    animation: 2s fade-in;
+    
+
+}
+
+.pod-desc-section{
+    /* background-color: aquamarine; */
+
+    height: 30%;
+    width: 80%;
+    padding: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.podImgTitle{
+    font-size: 2.5rem;
+}
+
+.horizontal-line-container{
+    /* background-color: #3b3b3a; */
+
+    height: 15vh;
+    width: 75%;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.horizontal-line{
+    background-color: grey;
+
+    height: 3%;
+    width: 100%;
+    margin: auto;
+    
+}
+
