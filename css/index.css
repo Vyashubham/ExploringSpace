@@ -651,5 +651,11 @@ background: linear-gradient(to right, #434343, #000000); W3C, IE 10+/ Edge, Fire
     justify-content: space-evenly;
 
     font-size: 1.3rem;
+    
 
+}
+
+.social > a{
+    text-decoration: none;
+    color: inherit;
 }
