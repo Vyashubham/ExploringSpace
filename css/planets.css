@@ -1,0 +1,51 @@
+body{
+    color: black;
+}
+
+.carousel{
+    background-color: green;
+
+    height: 70vh;
+    width: 100%;
+}
+.carousel-inner{
+    background-color: cadetblue;
+
+    height: 70vh;
+    width: 100%;
+   
+}
+
+.planet-container{
+    background-color: gold;
+
+    height: 60vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planet-desc{
+    background-color: aliceblue;
+
+    height: 90%;
+    width: 45%;
+}
+
+.planet-img{
+    background-color: brown;
+
+    height: 90%;
+    width: 55%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planet-img > img{
+    height: 100%;
+    width: auto;
+}
