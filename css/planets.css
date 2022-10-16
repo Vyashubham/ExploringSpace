@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; */
+    
 }
 
 .carousel{
@@ -12,6 +13,11 @@ body{
 
     height: 90vh;
     width: 100%;
+    /* background-image: url(https://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/iss066e161043.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    
 }
 .carousel-inner{
     /* background-color: cadetblue; */
