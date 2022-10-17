@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -167,11 +167,32 @@
     <div class="horizontal-line-container">
       <div class="horizontal-line"></div>
     </div>
-    <div class="pod-section-container">
+    <div class="pod-section-container" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
       <div class="pod-heading-container">
         <div class="pod-heading-inner">  
           <img src="https://cdn.dribbble.com/userupload/3080293/file/original-ddfb9e52572478156e69161eaa2e9757.jpg?compress=1&resize=1024x768" alt="">
           <p>Picture of the day</p></div>
+        </div>
+        <!-- <img src="https://cdn.dribbble.com/users/146798/screenshots/4732523/media/114ce595f56e4878cd9d61398ca3cfdd.gif" alt=""> -->
+      <div class="pod-img-section">
+        <img src="#" alt="" id="podImg">
+      </div>
+      <div class="pod-desc-section">
+        <p class="podImgTitle" id="podImgTitle"></p>
+        <p id="podDesc"></p>
+      </div>
+    </div>
+    <div class="horizontal-line-container">
+      <!-- <div class="horizontal-line"></div> -->
+    </div>
+    <div class="horizontal-line-container">
+      <div class="horizontal-line"></div>
+    </div>
+    <div class="pod-section-container" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+      <div class="pod-heading-container">
+        <div class="pod-heading-inner">  
+          <img src="https://cdn.dribbble.com/userupload/2590202/file/original-204e3118eb361641a7638387a1002d82.png?compress=1&resize=1600x1200" alt="">
+          <p>People in space!</p></div>
         </div>
         <!-- <img src="https://cdn.dribbble.com/users/146798/screenshots/4732523/media/114ce595f56e4878cd9d61398ca3cfdd.gif" alt=""> -->
       <div class="pod-img-section">
@@ -242,6 +263,13 @@
     <script type = "text/javascript" src="../js/pod.js" defer></script>
      <script type = "text/javascript" src="../js/numLoad.js"></script>
      <script type = "text/javascript" src="../js/recentNews.js"></script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init({
+         duration: 3000,
+         once: true,
+       });
+     </script>
      
   </body>
 </html>
