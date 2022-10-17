@@ -551,7 +551,7 @@ footer{
 .pod-img-section{
     /* background-color: orange; */
 
-    height: 60%;
+    height: 65%;
     width: 100%;
 
     display: flex;
@@ -624,6 +624,7 @@ footer{
     align-items: center;
     background-color: black;
     flex-direction: column;
+    color: #fff;
     
    
 /* background: rgb(0,0,0);
