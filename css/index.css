@@ -669,3 +669,66 @@ background: linear-gradient(to right, #434343, #000000); /*W3C, IE 10+/ Edge, Fi
     text-decoration: none;
     color: inherit;
 }
+
+.spacefolk-container{
+    /* background-color: #cfcf33; */
+
+    height: 70vh;
+    width: 90%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.spacefolk-graphic-container{
+    /* background-color: indianred; */
+
+    height: 90%;
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.spacefolk-graphic-container img{
+    height: auto;
+    width: 100%;
+
+}
+
+.spacefolk-desc-container{
+    /* background-color: #A7FF19; */
+
+    height: 90%;
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.folk1, .folk2{
+    /* background-color: #361da5; */
+    
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 5rem;
+}
+.spacefolk-desc-container p{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0;
+    margin: .2rem;
+
+
+}
