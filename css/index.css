@@ -537,6 +537,7 @@ footer{
     border-bottom: 0.8rem solid #FDDA0D;
     padding: 0;
     margin: 0;
+    margin-right: 5vh;
     
 }
 
@@ -544,6 +545,7 @@ footer{
     /* background-color: #3b3b3a; */
     height: 100%;
     width: auto;
+    /* margin-right: 5vh; */
     
     
 }
@@ -561,12 +563,14 @@ footer{
 }
 
 .pod-img-section > img{
-    height: 90%;
+    height: 85%;
     width: auto;
 
-    border-radius: .8rem;
-    box-shadow: 0px 20px 23px 0px rgba(0,0,0,0.1);
+    /* border-radius: .8rem; */
+    /* box-shadow: 0px 20px 23px 0px rgba(0,0,0,0.1); */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     animation: 2s fade-in;
+    border: .5rem solid white;
     
 
 }
@@ -586,6 +590,7 @@ footer{
 
 .podImgTitle{
     font-size: 2.5rem;
+    /* border-bottom: .4rem solid black ; */
 }
 
 .horizontal-line-container{
@@ -702,33 +707,40 @@ background: linear-gradient(to right, #434343, #000000); /*W3C, IE 10+/ Edge, Fi
 .spacefolk-desc-container{
     /* background-color: #A7FF19; */
 
-    height: 90%;
+    height: auto;
     width: 40%;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     /* flex-direction: column; */
+
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+    
 }
 
 .folk1, .folk2{
     /* background-color: #361da5; */
     
     height: 100%;
-    width: 50%;
+    width: 45%;
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
-
+    
     margin-top: 5rem;
+
+    
 }
 .spacefolk-desc-container p{
     font-size: 2rem;
     font-weight: 500;
     padding: 0;
     margin: .2rem;
+    border-bottom: .1rem solid black;
+    
 
 
 }
