@@ -109,19 +109,22 @@ body{
     justify-content: flex-start;
     align-items: center;
 }
-.tool-link > a{
+/* .tool-link > a{
     /* background-color: brown; */
-    padding: 1rem;
-    text-decoration: none;
-    color: white;
+    /* padding: 1rem; */
+    /* text-decoration: none; */
+    /* color: white; */
+    /* color: black; */
 
-    background-color: rgb(48, 46, 46);
+    /* background-color: rgb(48, 46, 46); */
+    /* border: .2rem solid black */
 
-}
-.tool-link > a:hover{
+/* } */
+/* .tool-link > a:hover{
     background-color: black;
     transition: .5s;
-}
+} */
+
 .tool-img-container{
     /* background-color: rgb(163, 119, 53); */
 
