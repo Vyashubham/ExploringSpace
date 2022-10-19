@@ -142,13 +142,27 @@ nav{
     display: block;
     width: 0;
     height: 2px;
-    background: #fff;
+    background: #000;
     transition: width .3s;
 }
 
 .cool-link:hover::after {
     width: 100%;
-    //transition: width .3s;
+    transition: width .3s;
+}
+
+.cool-link-home::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+
+.cool-link-home:hover::after {
+    width: 100%;
+    transition: width .3s;
 }
 
 .content{
