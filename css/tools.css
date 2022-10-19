@@ -1,0 +1,142 @@
+body{
+    color: black;
+    
+}
+
+.tools-heading-container{
+    /* background-color: palevioletred; */
+
+    height: 40vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    text-align: center;
+
+}
+
+.tools-img-container{
+    /* background-color: coral; */
+
+    height: 40%;
+    width: 100%;
+}
+
+.tools-img-container > img{
+    height: 100%;
+    width: auto;
+
+}
+
+.tools-cards-container{
+    /* background-color: rebeccapurple; */
+
+    height: 60vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-group{
+    /* background-color: aliceblue; */
+
+    height: 38vh;
+    width: 80%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5rem;
+
+}
+
+
+.tool-card{
+    background-color: aqua;
+
+    height: 100%;
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
+}
+
+.tool-desc-container{
+    /* background-color: blanchedalmond; */
+
+    height: 100%;
+    width: 65%;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.tool-heading{
+    /* background-color: lightblue; */
+
+    height: 20%;
+    width: 100%;
+}
+
+.tool-desc{
+    /* background-color: chocolate; */
+
+    height: 55%;
+    width: 100%;
+}
+
+.tool-link{
+    /* background-color: darkgreen; */
+
+    height: 25%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tool-link > a{
+    /* background-color: brown; */
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+
+    background-color: rgb(48, 46, 46);
+
+}
+.tool-link > a:hover{
+    background-color: black;
+    transition: .5s;
+}
+.tool-img-container{
+    /* background-color: rgb(163, 119, 53); */
+
+    height: 100%;
+    width: 35%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tool-img-container > img{
+    height: 50%;
+    width: auto;
+    /* object-fit: contain; */
+}
+
+
