@@ -1,4 +1,4 @@
-const api_url = 'https://newsapi.org/v2/everything?q=NASA&apiKey=5589b7cfbd824b56b3f7122db64fc56d&pageSize=10&sortBy=popularity';
+const api_url = 'https://newsapi.org/v2/everything?q=astronomy&apiKey=5589b7cfbd824b56b3f7122db64fc56d&pageSize=10&sortBy=recent';
 async function news(){
   const response = await fetch(api_url);
   const data = await response.json();
