@@ -9,3 +9,12 @@ TODO:
 4. add sticky nav and footer --> replace the current ones
 5. make website UI consistent 
 6. make webstie colors consistent
+
+
+re-use sections 
+    a. nav-bar
+    b. footer
+    c. logo section 
+    d. space-facts card
+    e. tools card
+    
