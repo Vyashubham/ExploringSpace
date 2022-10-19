@@ -629,7 +629,7 @@ footer{
 .pod-img-section{
     /* background-color: orange; */
 
-    height: 65%;
+    height: 60%;
     width: 100%;
 
     display: flex;
@@ -654,7 +654,7 @@ footer{
 .pod-desc-section{
     /* background-color: aquamarine; */
 
-    height: 10%;
+    height: 25%;
     width: 80%;
     padding: z;
 
