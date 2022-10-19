@@ -73,6 +73,8 @@ nav{
 /* } */ 
 
 .logo{
+    /* background-color: #A7FF19; */
+    
     font-size: 2rem !important;
     animation: 1.8s rotate;
    
@@ -102,6 +104,11 @@ nav{
     padding: 1rem;
     color: inherit;
     text-decoration: none;
+
+    display: flex;
+}
+.logo-section-container > a > span{
+    margin-right: .5rem;
 }
 .nav-items-container{
     /* background-color: gold; */
