@@ -34,3 +34,140 @@
     /* box-shadow: rgba(253, 218, 13, 0.4) 5px 5px, rgba(253, 218, 13, 0.3) 10px 10px, rgba(253, 218, 13, 0.2) 15px 15px, rgba(253, 218, 13, 0.1) 20px 20px, rgba(253, 218, 13, 0.05) 25px 25px; */
     /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
 }
+
+
+
+.planet-outer-container{
+    background-color: pink;
+
+    height: 90vh;
+    width: 100%;
+    margin-top: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+
+.planet-data-container{
+    background-color: yellow;
+
+    height: 55%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.planet-logo-container{
+    background-color: orange;
+
+    height: 45%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.planet-logo-container > img{
+    
+    width: 60%;
+    height: auto;
+
+    margin-top: 40%;
+
+    animation: 3s fade-in;
+    
+}
+
+.planet-desc-container{
+    background-color: aqua;
+
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.planet-title{
+    background-color: rebeccapurple;
+
+    height: 25%;
+    width: 100%;
+}
+
+.planet-desc{
+    background-color: green;
+
+    height: 40%;
+    width: 100%;
+}
+
+.planet-stats{
+    background-color: lightblue;
+
+    height: 35%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planet-images-container{
+    background-color: darkslategrey;
+
+    height: 100%;
+    width: 50%;
+}
+
+.planet-stats-container{
+    background-color: darkmagenta;
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.planet-stat-inner{
+    background-color: lightgray;
+
+    height: 100%;
+    width: 15%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.planet-stat-heading{
+    background-color: blue;
+
+    height: 30%;
+    width: 100%;
+}
+
+
+.planet-stat-desc{
+    background-color: rgb(20, 187, 42);
+
+    height: 60%;
+    width: 100%;
+}
