@@ -21,11 +21,13 @@ body::-webkit-scrollbar {
 }
 
 video{
+    /* background-color: papayawhip; */
+
     margin: auto;
-    /* height: 50%; */
-    /* width: 100%; */
+    height: 50%;
+    width: 100%;
     z-index: -1;
-    border-bottom: 1rem;
+
 }
 
 .main{
@@ -183,7 +185,7 @@ nav{
 
     /* background: transparent; */
 
-    background-image: url('../media/test6.png');
+    background-image: url('../media/heading.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
