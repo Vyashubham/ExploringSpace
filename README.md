@@ -11,6 +11,7 @@ TODO:
 6. make webstie colors consistent
 7. make mobile view
 8. optmize for SEO
+9. fav-icon update
 
 
 re-use sections 
@@ -29,3 +30,6 @@ FIXES NEEDED:
 4. pod, spacefolks, iss --> dimensions fix. --> content overflowing
 5. tools card --> make responsive (dimensions fix)
 6. 
+
+Planet --> moon count, avg. temp, mass, density, gravity, escape velocity
+Planet --> desc. --> wikipedia
