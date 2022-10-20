@@ -30,7 +30,7 @@ async function iss(){
   console.log(issData.velocity);
 
 //   point_to_map(issData.latitude, issData.longitude);
-  const map_api_url = 'https://maps.googleapis.com/maps/api/staticmap?center='+lat+','+lon+'&zoom=3&size=800x800&markers=size:large%7Ccolor:blue%7Clabel:ISS%7C'+lat+','+lon+'&maptype=satellite&key=AIzaSyAtIfPCwFuYFkPCHY65nv5EHwQJDz6IKJo';
+  const map_api_url = 'https://maps.googleapis.com/maps/api/staticmap?center='+lat+','+lon+'&zoom=2&size=800x800&markers=size:large%7Ccolor:blue%7Clabel:ISS%7C'+lat+','+lon+'&maptype=satellite&key=AIzaSyAtIfPCwFuYFkPCHY65nv5EHwQJDz6IKJo';
     document.getElementById('issnow').src = map_api_url;
   console.log(map_api_url);
   console.log("YOO");
