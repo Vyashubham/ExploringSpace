@@ -22,10 +22,19 @@
     <link rel="stylesheet" href="aos-by-red.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200;400;500;600;700&family=Silkscreen&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <button onclick="topFunction()" id="scrollUpbtn" title="Go to top"><span class="material-symbols-outlined scroll-logo">straight</span></button>
     <video src="../media/home_video.mp4" autoplay muted loop></video>
+    <!-- <div class="buffer_div"></div>
+    <div class="buffer_div"></div>
+    <div class="buffer_div"></div>
+    <div class="buffer_div"></div> -->
+    
     <div class="main">
       <nav>
         <div class="logo-section-container">
@@ -39,10 +48,14 @@
         </div>
     </nav>
     <div class="content">
-      <h1>Exploring the <span class="strikeout">beyond.</span></h1>
+
+      <!-- <h1>Exploring the <span class="strikeout">beyond.</span></h1>
+      <h2 class="sub-heading">catchup with the world of <span>astronomy.</span></h2> -->
       <!-- <p>Catch up with the world of astronomy</p> -->
-      
+      <!-- <img src="../../Pictures/Screenshot from " alt=""> -->
     </div>
+    <!-- <div class="test"><img src="../media/Untitled (Presentation (169)).png" alt=""></div> -->
+    <div class="test"></div>
     <div class="scroll-section">
       <div class="scroll-below">
         <p class="scroll-text"></p>
@@ -52,29 +65,31 @@
     </div>    
     
     <div class="space-facts" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+      <div class="space-facts-heading">
+        <p>Our solar system</p></div>
       <div class="space-facts-inner" id="intothespace">
 
         <div class="fact vert_line">
         <div class="fact-title">Planets</div>
-        <div class="fact-info num" id="value">8</div>
+        <div class="fact-info">8</div>
         <div class="vertical_line"></div>
       </div> 
 
       <div class="fact vert_line">
         <div class="fact-title">comets</div>
-        <div class="fact-info" id="value1">3,743</div>
+        <div class="fact-info">3,743</div>
         <div class="vertical_line"></div>
       </div> 
 
       <div class="fact vert_line">
         <div class="fact-title">Moons</div>
-        <div class="fact-info" id="value2"></div>
+        <div class="fact-info">220+</div>
         <div class="vertical_line"></div>
       </div>
 
       <div class="fact">
         <div class="fact-title">Asteroids</div>
-        <div class="fact-info num" id="value3">1,13,527</div>
+        <div class="fact-info num">1,13,527</div>
         <div class="vertical_line"></div>
       </div>
 
@@ -196,7 +211,7 @@
       <div class="pod-heading-container">
         <div class="pod-heading-inner">  
           <img src="https://cdn.dribbble.com/userupload/2590202/file/original-204e3118eb361641a7638387a1002d82.png?compress=1&resize=1600x1200" alt="">
-          <p>People in space!</p></div>
+          <p>People currently in space!</p></div>
         </div>
         <div class="spacefolk-container">
           <div class="spacefolk-graphic-container">
@@ -214,6 +229,7 @@
     <div class="horizontal-line-container">
       <!-- <div class="horizontal-line"></div> -->
     </div>
+   
     <div class="buffer_div"></div>
     
     <!-- <div class="footer">  
@@ -272,6 +288,7 @@
      <script type = "text/javascript" src="../js/numLoad.js"></script>
      <script type = "text/javascript" src="../js/recentNews.js"></script>
      <script type = "text/javascript" src="../js/spacefolks.js"></script>
+     <script type = "text/javascript" src="../js/iss.js"></script>
      <script>
       // Get the button
       let mybutton = document.getElementById("scrollUpbtn");
