@@ -25,7 +25,7 @@ video{
 
     margin: auto;
     height: 50%;
-    width: 100%;
+    min-width: 100%;
     z-index: -1;
 
 }
@@ -340,18 +340,18 @@ nav{
 .space-facts{
     /* background-color: blueviolet; */
     
-    /* position: absolute; */
+    position: relative;
     width: 90%;
     height: 20vh;
     
     /* margin-bottom: 20vh !important; */
-    /* margin-top: 25vh; */
-    margin-bottom: 10vh;
+    /* margin-top: ; */
+    /* margin-bottom: 1vh; */
     /* padding: 1vw; */
     z-index: 1;
     margin-left: auto !important;
     margin-right: auto !important;
-    inset: 50% !important;
+    /* inset: 50% !important; */
 
     display: flex;
     justify-content: center;
@@ -734,7 +734,7 @@ footer{
 .horizontal-line-container{
     /* background-color: #3b3b3a; */
 
-    height: 15vh;
+    height: 10vh;
     width: 75%;
     margin: auto;
 
