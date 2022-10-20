@@ -34,7 +34,7 @@ body{
 .tools-cards-container{
     /* background-color: rebeccapurple; */
 
-    height: 60vh;
+    height: 120vh;
     width: 100%;
 
     display: flex;
@@ -46,8 +46,8 @@ body{
 .card-group{
     /* background-color: aliceblue; */
 
-    height: 38vh;
-    width: 80%;
+    height: 45vh;
+    width: 85%;
 
     display: flex;
     justify-content: space-evenly;
@@ -58,10 +58,11 @@ body{
 
 
 .tool-card{
-    background-color: aqua;
+    /* background-color: aqua; */
 
-    height: 100%;
-    width: 40%;
+    height: 80%;
+    max-height: 95%;
+    max-width: 47%;
 
     display: flex;
     justify-content: center;
