@@ -1,13 +1,13 @@
 const api_url =
-  "https://newsapi.org/v2/everything?q=astronomy&apiKey=5589b7cfbd824b56b3f7122db64fc56d&pageSize=10&SortBy=popularity";
+  "https://newsapi.org/v2/everything?q=astronomy&nasa&apiKey=5589b7cfbd824b56b3f7122db64fc56d&pageSize=10&SortBy=popularity";
   // "https://newsapi.org/v2/everything?q=astronomy&apiKey=5589b7cfbd824b56b3f7122db64fc56d&pageSize=10&sortBy=recent"
 async function news() {
   const response = await fetch(api_url);
   const data = await response.json();
   console.log(data);
-  var random_num1 = Math.floor(Math.random() * 10);
-  var random_num2 = Math.floor(Math.random() * 10);
-  var random_num3 = Math.floor(Math.random() * 10);
+  var random_num1 = Math.floor(Math.random() * 9);
+  var random_num2 = Math.floor(Math.random() * 9);
+  var random_num3 = Math.floor(Math.random() * 9);
   // console.log(data.status); // working
   // console.log(data.articles); //working
   // console.log(data.articles[0].urlToImage);
@@ -21,7 +21,7 @@ async function news() {
     // document.getElementById('recentNewsSource').textContent = data.articles[0].source.name;
     // console.log(data.articles[0].source.name);
   document.getElementById("recentNewsDesc0").textContent =
-    data.articles[0].description;
+    data.articles[random_num1].description;
   document.getElementById("recentNewsReadNow0").href = data.articles[random_num1].url;
 
   document.getElementById("recentNewsImg1").src = data.articles[random_num2].urlToImage;
