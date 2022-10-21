@@ -3,10 +3,11 @@ body{
     
 }
 
+
 .tools-heading-container{
     /* background-color: palevioletred; */
 
-    height: 40vh;
+    height: 25vh;
     width: 100%;
 
     display: flex;
@@ -34,7 +35,7 @@ body{
 .tools-cards-container{
     /* background-color: rebeccapurple; */
 
-    height: 120vh;
+    min-height: 50vh;
     width: 100%;
 
     display: flex;
