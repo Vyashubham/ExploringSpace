@@ -111,7 +111,7 @@ body {
 .tool-img-container {
   /* background-color: rgb(163, 119, 53); */
 
-  max-height: 20vh;
+  min-height: 20vh;
   width: 35%;
 
   display: flex;
@@ -122,5 +122,6 @@ body {
 .tool-img-container > img {
   max-height: 20vh;
   width: auto;
+  max-width: 90%;
   /* object-fit: contain !important; */
 }
