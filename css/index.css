@@ -495,8 +495,14 @@ footer {
   height: 100%;
   width: auto;
   /* height: auto; */
-  border-radius: 1vw;
+  /* border-radius: 1vw; */
   object-fit: cover;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  animation: 2s fade-in;
+  border: 0.5vw solid white;
+
+  
 }
 .recent-news-text-container {
   /* background-color: crimson; */
@@ -822,7 +828,12 @@ footer {
   max-width: 90%;
   height: auto;
 
-  border-radius: 0.8vw;
+  /* border-radius: 0.8vw; */
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  animation: 2s fade-in;
+  border: 0.5vw solid white;
+
 }
 
 .iss-data-container {
