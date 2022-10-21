@@ -1,468 +1,570 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Space</title>
-    
-     <!-- Bootstrap CSS -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&family=Silkscreen&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome CDN CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
 
-   <link rel="stylesheet" href="aos-by-red.css">
-   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-   
-    <link rel="shortcut icon" href="../media/logo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../css/planets.css">
+    <!-- Google font and icon CDNs -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200;400;500;600;700&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="../junk/junk.css">
+    <!-- AOS CSS Lib. -->
+    <link rel="stylesheet" href="aos-by-red.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <!-- Local links  -->
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/planets.css" />
+    <link rel="shortcut icon" href="../media/logo.ico" type="image/x-icon" />
   </head>
   <body>
+    <!-- ** Stars animation ** -->
     <div class="stars-container" id="space"></div>
+
     <div class="main">
-       <!-- Navbar -->
-       <nav>
+      <!-- Navbar -->
+      <nav>
         <div class="logo-section-container">
-        <span class="material-symbols-outlined logo">flare</span>
-        <a href="../html/index.html" class="logo-text">SPACE</a> 
+          <span class="material-symbols-outlined logo">flare</span>
+          <a href="../html/index.html" class="logo-text">SPACE</a>
         </div>
         <div class="nav-items-container">
-            <a href="../html/index.html" class="cool-link-home">Home</a>
-            <a href="./planets.html" class="cool-link-home">Planets</a>
-            <a href="../html/tools.html" class="cool-link-home">Tools</a>
+          <a href="../html/index.html" class="cool-link-home">Home</a>
+          <a href="./planets.html" class="cool-link-home">Planets</a>
+          <a href="../html/tools.html" class="cool-link-home">Tools</a>
         </div>
-    </nav>
-    <!-- <div class="planet-container">
-      <div class="planet-container-inner">
-        <div class="planet-text">
-          <div class="planet-title">
-            <h1>EARTH</h1>
-          </div>
-          <div class="planet-desc">
-            <p>Our home planet is the third planet from the Sun, 
-              and the only place we know of so far that’s inhabited by living things.While Earth is only the fifth largest planet in the solar system, it is the only world in our solar system with liquid water on the surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal.</p>
-          </div>
-        </div>
-        <div class="planet-img">
-          <img src="../media/earth.png" alt="">
-        </div>
-      </div>
-      <div class="planet-facts">
-        <div class="space-facts">
-          <div class="space-facts-inner" id="intothespace">
-    
-            <div class="fact vert_line">
-            <div class="fact-title">Planets</div>
-            <div class="fact-info num" id="value">8</div>
-            <div class="vertical_line"></div>
-          </div> 
-    
-          <div class="fact vert_line">
-            <div class="fact-title">comets</div>
-            <div class="fact-info" id="value1">3,743</div>
-            <div class="vertical_line"></div>
-          </div> 
-    
-          <div class="fact vert_line">
-            <div class="fact-title">Moons</div>
-            <div class="fact-info" id="value2"></div>
-            <div class="vertical_line"></div>
-          </div>
-    
-          <div class="fact">
-            <div class="fact-title">Asteroids</div>
-            <div class="fact-info num" id="value3">1,13,527</div>
-            <div class="vertical_line"></div>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
+      </nav>
 
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-           <div class="planet-container">
-      <div class="planet-container-inner">
-        <div class="planet-text">
-          <div class="planet-title typewriter">
-            <h1>MERCURY</h1>
-          </div>
-          <div class="planet-desc">
-            <p>Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. It is named after the Roman god Mercurius (Mercury), god of commerce, messenger of the gods, and mediator between gods and mortals, corresponding to the Greek god Hermes (Ἑρμῆς).</p>
-          </div>
-          <div class="planet-stats">
-            <div class="planet-stats-container">
-              <div class="planet-stat-inner">
-                <div class="planet-stat-heading">Average Temp.</div>
-                <div class="planet-stat-desc" id="avg-temp0"></div>
-              </div>
-              <div class="planet-stat-inner">
-                <div class="planet-stat-heading">Gravity</div>
-                <div class="planet-stat-desc" id="planet-gravity0"></div>
-              </div>
-              <div class="planet-stat-inner">
-                <div class="planet-stat-heading">Density</div>
-                <div class="planet-stat-desc" id="planet-density0"></div>
-              </div>
-              <div class="planet-stat-inner">
-                <div class="planet-stat-heading">Tilt</div>
-                <div class="planet-stat-desc" id="planet-axialTilt0"></div>
+      <!-- ! Planets Carousel -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <!-- First carousel element -->
+          <!-- ** MERCURY ** -->
+          <div class="carousel-item active">
+            <div class="planet-container">
+              <div class="planet-container-inner">
+                <div class="planet-text">
+                  <div class="planet-title typewriter">
+                    <h1>MERCURY</h1>
+                  </div>
+                  <div class="planet-desc">
+                    <p>
+                      Mercury is the smallest planet in the Solar System and the
+                      closest to the Sun. Its orbit around the Sun takes 87.97
+                      Earth days, the shortest of all the Sun's planets. It is
+                      named after the Roman god Mercurius (Mercury), god of
+                      commerce, messenger of the gods, and mediator between gods
+                      and mortals, corresponding to the Greek god Hermes
+                      (Ἑρμῆς).
+                    </p>
+                  </div>
+                  <div class="planet-stats">
+                    <div class="planet-stats-container">
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Average Temp.</div>
+                        <div class="planet-stat-desc" id="avg-temp0"></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Gravity</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-gravity0"
+                        ></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Density</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-density0"
+                        ></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Tilt</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-axialTilt0"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="planet-img">
+                  <img src="../media/mercury.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="planet-img">
-          <img src="../media/mercury.png" alt="">
+
+          <!-- ** VENUS ** -->
+          <div class="carousel-item">
+            <div class="planet-container">
+              <div class="planet-container-inner">
+                <div class="planet-text">
+                  <div class="planet-title typewriter">
+                    <h1>VENUS</h1>
+                  </div>
+                  <div class="planet-desc">
+                    <p>
+                      Venus is the second planet from the Sun. It is sometimes
+                      called Earth's "sister" or "twin" planet as it is almost
+                      as large and has a similar composition. Venus, like
+                      Mercury, appears in Earth's sky never far from the Sun,
+                      either as morning star or evening star with a synodic
+                      period of 1.6 years.
+                    </p>
+                  </div>
+                  <div class="planet-stats">
+                    <div class="planet-stats-container">
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Average Temp.</div>
+                        <div class="planet-stat-desc" id="avg-temp1"></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Gravity</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-gravity1"
+                        ></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Density</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-density1"
+                        ></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Tilt</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-axialTilt1"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="planet-img">
+                  <img src="../media/venus.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ** EARTH ** -->
+          <div class="carousel-item">
+            <div class="planet-container">
+              <div class="planet-container-inner">
+                <div class="planet-text">
+                  <div class="planet-title typewriter">
+                    <h1>EARTH</h1>
+                  </div>
+                  <div class="planet-desc">
+                    <p>
+                      Our home planet is the third planet from the Sun, and the
+                      only place we know of so far that’s inhabited by living
+                      things.While Earth is only the fifth largest planet in the
+                      solar system, it is the only world in our solar system
+                      with liquid water on the surface. Just slightly larger
+                      than nearby Venus, Earth is the biggest of the four
+                      planets closest to the Sun, all of which are made of rock
+                      and metal.
+                    </p>
+                  </div>
+                  <div class="planet-stats">
+                    <div class="planet-stats-container">
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Average Temp.</div>
+                        <div class="planet-stat-desc" id="avg-temp2"></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Gravity</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-gravity2"
+                        ></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Density</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-density2"
+                        ></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Tilt</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-axialTilt2"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="planet-img">
+                  <img src="../media/earth.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ** MARS ** -->
+          <div class="carousel-item">
+            <div class="planet-container">
+              <div class="planet-container-inner">
+                <div class="planet-text">
+                  <div class="planet-title typewriter">
+                    <h1>MARS</h1>
+                  </div>
+                  <div class="planet-desc">
+                    <p>
+                      Mars is the fourth planet from the Sun and the
+                      second-smallest planet in the Solar System, being larger
+                      than only Mercury. In the English language, Mars is named
+                      for the Roman god of war.
+                    </p>
+                  </div>
+                  <div class="planet-stats">
+                    <div class="planet-stats-container">
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Average Temp.</div>
+                        <div class="planet-stat-desc" id="avg-temp3"></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Gravity</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-gravity3"
+                        ></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Density</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-density3"
+                        ></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Tilt</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-axialTilt3"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="planet-img">
+                  <img src="../media/mars.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ** JUPITER ** -->
+          <div class="carousel-item">
+            <div class="planet-container">
+              <div class="planet-container-inner">
+                <div class="planet-text">
+                  <div class="planet-title typewriter">
+                    <h1>JUPITER</h1>
+                  </div>
+                  <div class="planet-desc">
+                    <p>
+                      Jupiter is the fifth planet from the Sun and the largest
+                      in the Solar System. It is a gas giant with a mass more
+                      than two and a half times that of all the other planets in
+                      the Solar System combined, but slightly less than
+                      one-thousandth the mass of the Sun. Jupiter is the third
+                      brightest natural object in the Earth's night sky after
+                      the Moon and Venus, and it has been observed since
+                      prehistoric times.
+                    </p>
+                  </div>
+                  <div class="planet-stats">
+                    <div class="planet-stats-container">
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Average Temp.</div>
+                        <div class="planet-stat-desc" id="avg-temp4"></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Gravity</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-gravity4"
+                        ></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Density</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-density4"
+                        ></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Tilt</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-axialTilt4"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="planet-img">
+                  <img src="../media/jupiter.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ** SATURN ** -->
+          <div class="carousel-item">
+            <div class="planet-container">
+              <div class="planet-container-inner">
+                <div class="planet-text">
+                  <div class="planet-title typewriter">
+                    <h1>SATURN</h1>
+                  </div>
+                  <div class="planet-desc">
+                    <p>
+                      Saturn is the sixth planet from the Sun and the
+                      second-largest in the Solar System, after Jupiter. It is a
+                      gas giant with an average radius of about nine and a half
+                      times that of Earth.[23][24] It has only one-eighth the
+                      average density of Earth; however, with its larger volume,
+                      Saturn is over 95 times more massive.
+                    </p>
+                  </div>
+                  <div class="planet-stats">
+                    <div class="planet-stats-container">
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Average Temp.</div>
+                        <div class="planet-stat-desc" id="avg-temp5"></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Gravity</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-gravity5"
+                        ></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Density</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-density5"
+                        ></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Tilt</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-axialTilt5"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="planet-img">
+                  <img src="../media/saturn.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ** URANUS ** -->
+          <div class="carousel-item">
+            <div class="planet-container">
+              <div class="planet-container-inner">
+                <div class="planet-text">
+                  <div class="planet-title typewriter">
+                    <h1>URANUS</h1>
+                  </div>
+                  <div class="planet-desc">
+                    <p>
+                      Uranus is the seventh planet from the Sun. Its name is a
+                      reference to the Greek god of the sky, Uranus (Caelus),
+                      who, according to Greek mythology, was the
+                      great-grandfather of Ares (Mars), grandfather of Zeus
+                      (Jupiter) and father of Cronus (Saturn). It has the
+                      third-largest planetary radius and fourth-largest
+                      planetary mass in the Solar System.
+                    </p>
+                  </div>
+                  <div class="planet-stats">
+                    <div class="planet-stats-container">
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Average Temp.</div>
+                        <div class="planet-stat-desc" id="avg-temp6"></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Gravity</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-gravity6"
+                        ></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Density</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-density6"
+                        ></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Tilt</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-axialTilt6"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="planet-img">
+                  <img src="../media/uranus.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- ** NEPTUNE ** -->
+          <div class="carousel-item">
+            <div class="planet-container">
+              <div class="planet-container-inner">
+                <div class="planet-text">
+                  <div class="planet-title typewriter">
+                    <h1>NEPTUNE</h1>
+                  </div>
+                  <div class="planet-desc">
+                    <p>
+                      Uranus is the seventh planet from the Sun. Its name is a
+                      reference to the Greek god of the sky, Uranus (Caelus),
+                      who, according to Greek mythology, was the
+                      great-grandfather of Ares (Mars), grandfather of Zeus
+                      (Jupiter) and father of Cronus (Saturn). It has the
+                      third-largest planetary radius and fourth-largest
+                      planetary mass in the Solar System.
+                    </p>
+                  </div>
+                  <div class="planet-stats">
+                    <div class="planet-stats-container">
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Average Temp.</div>
+                        <div class="planet-stat-desc" id="avg-temp7"></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Gravity</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-gravity7"
+                        ></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Density</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-density7"
+                        ></div>
+                      </div>
+                      <div class="planet-stat-inner">
+                        <div class="planet-stat-heading">Tilt</div>
+                        <div
+                          class="planet-stat-desc"
+                          id="planet-axialTilt7"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="planet-img">
+                  <img src="../media/neptune.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-        </div>
-        <div class="carousel-item">
-          <div class="planet-container">
-            <div class="planet-container-inner">
-              <div class="planet-text">
-                <div class="planet-title typewriter">
-                  <h1>VENUS</h1>
-                </div>
-                <div class="planet-desc">
-                  <p>Venus is the second planet from the Sun. It is sometimes called Earth's "sister" or "twin" planet as it is almost as large and has a similar composition. Venus, like Mercury, appears in Earth's sky never far from the Sun, either as morning star or evening star with a synodic period of 1.6 years.</p>
-                </div>
-                <div class="planet-stats">
-                  <div class="planet-stats-container">
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Average Temp.</div>
-                      <div class="planet-stat-desc" id="avg-temp1"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Gravity</div>
-                      <div class="planet-stat-desc" id="planet-gravity1"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Density</div>
-                      <div class="planet-stat-desc" id="planet-density1"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Tilt</div>
-                      <div class="planet-stat-desc" id="planet-axialTilt1"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="planet-img">
-                <img src="../media/venus.png" alt="">
-              </div>
-            </div>
-           
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="planet-container">
-            <div class="planet-container-inner">
-              <div class="planet-text">
-                <div class="planet-title typewriter">
-                  <h1>EARTH</h1>
-                </div>
-                <div class="planet-desc">
-                  <p>Our home planet is the third planet from the Sun, 
-                    and the only place we know of so far that’s inhabited by living things.While Earth is only the fifth largest planet in the solar system, it is the only world in our solar system with liquid water on the surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal.</p>
-                </div>
-                <div class="planet-stats">
-                  <div class="planet-stats-container">
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Average Temp.</div>
-                      <div class="planet-stat-desc" id="avg-temp2"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Gravity</div>
-                      <div class="planet-stat-desc" id="planet-gravity2"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Density</div>
-                      <div class="planet-stat-desc" id="planet-density2"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Tilt</div>
-                      <div class="planet-stat-desc" id="planet-axialTilt2"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="planet-img">
-                <img src="../media/earth.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="planet-container">
-            <div class="planet-container-inner">
-              <div class="planet-text">
-                <div class="planet-title typewriter">
-                  <h1>MARS</h1>
-                </div>
-                <div class="planet-desc">
-                  <p>Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In the English language, Mars is named for the Roman god of war.</p>
-                </div>
-                <div class="planet-stats">
-                  <div class="planet-stats-container">
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Average Temp.</div>
-                      <div class="planet-stat-desc" id="avg-temp3"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Gravity</div>
-                      <div class="planet-stat-desc" id="planet-gravity3"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Density</div>
-                      <div class="planet-stat-desc" id="planet-density3"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Tilt</div>
-                      <div class="planet-stat-desc" id="planet-axialTilt3"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="planet-img">
-                <img src="../media/mars.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="planet-container">
-            <div class="planet-container-inner">
-              <div class="planet-text">
-                <div class="planet-title typewriter">
-                  <h1>JUPITER</h1>
-                </div>
-                <div class="planet-desc">
-                  <p>Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun. Jupiter is the third brightest natural object in the Earth's night sky after the Moon and Venus, and it has been observed since prehistoric times.</p>
-                </div>
-                <div class="planet-stats">
-                  <div class="planet-stats-container">
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Average Temp.</div>
-                      <div class="planet-stat-desc" id="avg-temp4"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Gravity</div>
-                      <div class="planet-stat-desc" id="planet-gravity4"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Density</div>
-                      <div class="planet-stat-desc" id="planet-density4"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Tilt</div>
-                      <div class="planet-stat-desc" id="planet-axialTilt4"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="planet-img">
-                <img src="../media/jupiter.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="planet-container">
-            <div class="planet-container-inner">
-              <div class="planet-text">
-                <div class="planet-title typewriter">
-                  <h1>SATURN</h1>
-                </div>
-                <div class="planet-desc">
-                  <p>Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth.[23][24] It has only one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive.</p>
-                </div>
-                <div class="planet-stats">
-                  <div class="planet-stats-container">
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Average Temp.</div>
-                      <div class="planet-stat-desc" id="avg-temp5"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Gravity</div>
-                      <div class="planet-stat-desc" id="planet-gravity5"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Density</div>
-                      <div class="planet-stat-desc" id="planet-density5"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Tilt</div>
-                      <div class="planet-stat-desc" id="planet-axialTilt5"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="planet-img">
-                <img src="../media/saturn.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="planet-container">
-            <div class="planet-container-inner">
-              <div class="planet-text">
-                <div class="planet-title typewriter">
-                  <h1>URANUS</h1>
-                </div>
-                <div class="planet-desc">
-                  <p>Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus (Caelus), who, according to Greek mythology, was the great-grandfather of Ares (Mars), grandfather of Zeus (Jupiter) and father of Cronus (Saturn). It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.</p>
-                </div>
-                <div class="planet-stats">
-                  <div class="planet-stats-container">
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Average Temp.</div>
-                      <div class="planet-stat-desc" id="avg-temp6"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Gravity</div>
-                      <div class="planet-stat-desc" id="planet-gravity6"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Density</div>
-                      <div class="planet-stat-desc" id="planet-density6"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Tilt</div>
-                      <div class="planet-stat-desc" id="planet-axialTilt6"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="planet-img">
-                <img src="../media/uranus.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="planet-container">
-            <div class="planet-container-inner">
-              <div class="planet-text">
-                <div class="planet-title typewriter">
-                  <h1>NEPTUNE</h1>
-                </div>
-                <div class="planet-desc">
-                  <p>Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus (Caelus), who, according to Greek mythology, was the great-grandfather of Ares (Mars), grandfather of Zeus (Jupiter) and father of Cronus (Saturn). It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.</p>
-                </div>
-                <div class="planet-stats">
-                  <div class="planet-stats-container">
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Average Temp.</div>
-                      <div class="planet-stat-desc" id="avg-temp7"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Gravity</div>
-                      <div class="planet-stat-desc" id="planet-gravity7"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Density</div>
-                      <div class="planet-stat-desc" id="planet-density7"></div>
-                    </div>
-                    <div class="planet-stat-inner">
-                      <div class="planet-stat-heading">Tilt</div>
-                      <div class="planet-stat-desc" id="planet-axialTilt7"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="planet-img">
-                <img src="../media/neptune.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
+
+      <!-- Carousel control buttons -->
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-        <!-- <span class="material-symbols-outlined carousel-control-next-icon">arrow_left_alt</span> -->
-        <span class="material-symbols-outlined carousel-control-icon">
-          west
-          </span>
+        <span class="material-symbols-outlined carousel-control-icon"> west </span>
         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-        <!-- <span class="material-symbols-outlined carousel-control-next-icon">arrow_right_alt</span> -->
-        <span class="material-symbols-outlined carousel-control-icon">
-          east
-          </span>
+        <span class="material-symbols-outlined carousel-control-icon"> east </span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
+    <!-- Buffer div -->
     <div class="buffer_div"></div>
 
+    <!-- footer planet 
+    !!NOT WORKING!! 
+    -->
     <div class="footer footer-planet">
       <div class="logo-footer">
         <div class="logo-footer">
           <span class="material-symbols-outlined logo">flare</span>
-          <a href="#" class="logo-text">SPACE</a> 
+          <a href="#" class="logo-text">SPACE</a>
         </div>
       </div>
       <div class="social">
-        <a class="fa-brands fa-facebook" href="https://www.facebook.com/vyashubham"></a>
-        <a class="fa-brands fa-instagram" href="https://www.instagram.com/shubham_vyas19/"></a>
-        <a class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/vyashubham/"></a>
+        <a
+          class="fa-brands fa-facebook"
+          href="https://www.facebook.com/vyashubham"
+        ></a>
+        <a
+          class="fa-brands fa-instagram"
+          href="https://www.instagram.com/shubham_vyas19/"
+        ></a>
+        <a
+          class="fa-brands fa-linkedin"
+          href="https://www.linkedin.com/in/vyashubham/"
+        ></a>
         <a class="fa-brands fa-github" href="https://github.com/Vyashubham"></a>
       </div>
     </div>
+    <!-- footer planet 
+    !!NOT WORKING!! 
+    -->
 
+
+   <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    
-    <script type = "text/javascript" src="../js/pod.js" defer></script>
-     <script type = "text/javascript" src="../js/numLoad.js"></script>
-     <script type = "text/javascript" src="../js/recentNews.js"></script>
-     <script type = "text/javascript" src="../js/planet.js"></script>
-     <script>
-     var limit = 1001;
-space = document.getElementById("space");
 
-stars = {
-  rand: function () {
-    return Math.random();
-  },
+    <!-- Local Scripts  -->
+    <script type = "text/javascript" src="../js/starAnimation.js"></script>
+    <script type = "text/javascript" src="../js/planet.js"></script>
 
-  createStar: function () {
-    let star = document.createElement("div");
-    star.className = "star";
-
-    return star;
-  },
-
-  create: function () {
-    for (let i = 0; i <= limit; i++) {
-      let star = this.createStar();
-      star.style.top = `${this.rand() * 100}%`;
-      star.style.left = `${this.rand() * 100}%`;
-      star.style.animationDelay = `${this.rand() * 8}s`;
-      space.appendChild(star);
-    }
-  }
-};
-
-stars.create();
-
-     </script>
-     
   </body>
 </html>
