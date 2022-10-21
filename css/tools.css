@@ -1,150 +1,126 @@
-body{
-    color: black;
-    
+body {
+  color: black;
 }
 
+.tools-heading-container {
+  /* background-color: palevioletred; */
 
-.tools-heading-container{
-    /* background-color: palevioletred; */
+  height: 25vh;
+  width: 100%;
 
-    height: 25vh;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-    text-align: center;
-
+  text-align: center;
 }
 
-.tools-img-container{
-    /* background-color: coral; */
+.tools-img-container {
+  /* background-color: coral; */
 
-    height: 40%;
-    width: 100%;
+  height: 40%;
+  width: 100%;
 }
 
-.tools-img-container > img{
-    height: 100%;
-    width: auto;
-
+.tools-img-container > img {
+  height: 100%;
+  width: auto;
 }
 
-.tools-cards-container{
-    /* background-color: rebeccapurple; */
+.tools-cards-container {
+  /* background-color: rebeccapurple; */
 
-    min-height: 50vh;
-    width: 100%;
+  min-height: 50vh;
+  width: 100%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.card-group{
-    /* background-color: aliceblue; */
+.card-group {
+  /* background-color: aliceblue; */
 
-    max-height: 90vh;
-    width: 85%;
+  max-height: 90vh;
+  width: 85%;
 
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 5rem;
-
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
 }
 
+.tool-card {
+  /* background-color: aqua; */
 
-.tool-card{
-    /* background-color: aqua; */
+  /* height: 40vh; */
+  max-height: 40vh;
+  max-width: 47%;
 
-    /* height: 40vh; */
-    max-height: 40vh;
-    max-width: 47%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    background-color: white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-.tool-desc-container{
-    /* background-color: blanchedalmond; */
+.tool-desc-container {
+  /* background-color: blanchedalmond; */
 
-    height: 100%;
-    width: 65%;
-    
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    flex-direction: column;
+  height: 100%;
+  width: 65%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
-.tool-heading{
-    /* background-color: lightblue; */
+.tool-heading {
+  /* background-color: lightblue; */
 
-    height: 20%;
-    width: 100%;
+  height: 20%;
+  width: 100%;
 }
 
-.tool-desc{
-    /* background-color: chocolate; */
+.tool-desc {
+  /* background-color: chocolate; */
 
-    height: 55%;
-    width: 100%;
+  height: 55%;
+  width: 100%;
 
-    overflow: hidden;
+  overflow: hidden;
 }
 
-.tool-link{
-    /* background-color: darkgreen; */
+.tool-link {
+  /* background-color: darkgreen; */
 
-    height: 25%;
-    width: 100%;
-    
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-/* .tool-link > a{
-    /* background-color: brown; */
-    /* padding: 1rem; */
-    /* text-decoration: none; */
-    /* color: white; */
-    /* color: black; */
+  height: 25%;
+  width: 100%;
 
-    /* background-color: rgb(48, 46, 46); */
-    /* border: .2rem solid black */
-
-/* } */
-/* .tool-link > a:hover{
-    background-color: black;
-    transition: .5s;
-} */
-
-.tool-img-container{
-    /* background-color: rgb(163, 119, 53); */
-
-    max-height: 20vh;
-    width: 35%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.tool-img-container > img{
-    max-height: 20vh;
-    width: auto;
-    /* object-fit: contain !important; */
+.tool-img-container {
+  /* background-color: rgb(163, 119, 53); */
+
+  max-height: 20vh;
+  width: 35%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
+.tool-img-container > img {
+  max-height: 20vh;
+  width: auto;
+  /* object-fit: contain !important; */
+}

@@ -1,182 +1,157 @@
-body{
-    background-color: black;
-    color: white;
-
-    /* background-image: url(https://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/iss066e161043.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
+body {
+  background-color: black;
+  color: white;
 }
 
-.carousel{
-    /* background-color: green; */
-    background-color: transparent;
+.carousel {
+  /* background-color: green; */
+  background-color: transparent;
 
-    height: 90vh;
-    width: 100%;
-    /* background-image: url(https://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/iss066e161043.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
-    
+  height: 90vh;
+  width: 100%;
 }
-.carousel-inner{
-    /* background-color: cadetblue; */
-    background-color: transparent;
+.carousel-inner {
+  /* background-color: cadetblue; */
+  background-color: transparent;
 
-    height: 90vh;
-    width: 100%;
-   
+  height: 90vh;
+  width: 100%;
 }
 
-.carousel-control-prev, .carousel-control-next{
-    /* background-color: gray; */
-    background-color: transparent;
-    
-    
-    margin-top: 10vh;
-    height: 90vh;
-    width: 10%;
-    
+.carousel-control-prev,
+.carousel-control-next {
+  /* background-color: gray; */
+  background-color: transparent;
+
+  margin-top: 10vh;
+  height: 90vh;
+  width: 10%;
 }
 
-.carousel-control-icon{
-    color: white;
+.carousel-control-icon {
+  color: white;
 }
 
-
-.carousel-control-icon{
-    font-size: 3rem;
+.carousel-control-icon {
+  font-size: 3rem;
 }
 
-.planet-container{
-    /* background-color: gold; */
-    background-color: transparent;
+.planet-container {
+  /* background-color: gold; */
+  background-color: transparent;
 
-    /* background-color: transparent; */
-    height: 90vh;
-    width: 100%;
-
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
-    /* margin: auto !important; */
+  /* background-color: transparent; */
+  height: 90vh;
+  width: 100%;
 }
 
-.planet-container-inner{
-    /* background-color: chartreuse; */
-    background-color: transparent;
+.planet-container-inner {
+  /* background-color: chartreuse; */
+  background-color: transparent;
 
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1vw;
-    /* flex-direction: column; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  /* flex-direction: column; */
 }
 
-.planet-facts{
-    /* background-color: red; */
+.planet-facts {
+  /* background-color: red; */
 
-    height: 25%;
-    width: 100%;
+  height: 25%;
+  width: 100%;
 }
-.planet-text{
-    /* background-color: aliceblue; */
-    background-color: transparent;
+.planet-text {
+  /* background-color: aliceblue; */
+  background-color: transparent;
 
-    height: 90%;
-    width: 45%;
-    
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-}
+  height: 90%;
+  width: 45%;
 
-.planet-img{
-    /* background-color: brown; */
-    /* background-color: transparent; */
-
-    height: 70vh;
-    width: 40%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
-.planet-img > img{
-    /* background-color: cornflowerblue; */
-    background-color: transparent;
-    
-    /* height: 85%;
+.planet-img {
+  /* background-color: brown; */
+  /* background-color: transparent; */
+
+  height: 70vh;
+  width: 40%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planet-img > img {
+  /* background-color: cornflowerblue; */
+  background-color: transparent;
+
+  /* height: 85%;
     width: auto; */
-    height: 100%; 
-    width: 100%; 
-    object-fit: contain;
-    
-    animation: 2s fade-in;
-    transform: rotate3d(180deg);
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+
+  animation: 2s fade-in;
+  transform: rotate3d(180deg);
 }
-#sad-mercury{
-   height: 50%; 
-    width: auto; 
-    object-fit: contain;
-
+#sad-mercury {
+  height: 50%;
+  width: auto;
+  object-fit: contain;
 }
-.planet-title{
-    /* background-color: orange; */
-    background-color: transparent;
+.planet-title {
+  /* background-color: orange; */
+  background-color: transparent;
 
-    height: 20%;
-    width: 50%;
+  height: 20%;
+  width: 50%;
 
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-}
-
-.planet-title > h1{
-    font-size: 5rem;
-    color: #375673;
-    color: white;
-    
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
-.planet-desc{
-    /* background-color: pink;  */
-    background-color: transparent;
-
-    height: 80%;
-    width: 100%;
-    
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
+.planet-title > h1 {
+  font-size: 5rem;
+  color: #375673;
+  color: white;
 }
 
-.planet-desc > p{
-    font-size: 1.2rem;
-    overflow: hidden;
+.planet-desc {
+  /* background-color: pink;  */
+  background-color: transparent;
+
+  height: 80%;
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
+.planet-desc > p {
+  font-size: 1.2rem;
+  overflow: hidden;
+}
 
-
-
-
-.planet-desc{
+.planet-desc {
   /* background-color: green; */
 
   height: 20%;
   width: 100%;
 }
 
-.planet-stats{
+.planet-stats {
   /* background-color: lightblue; */
 
   height: 20%;
@@ -187,8 +162,7 @@ body{
   align-items: center;
 }
 
-
-.planet-stats-container{
+.planet-stats-container {
   /* background-color: darkmagenta; */
 
   height: 100%;
@@ -197,10 +171,9 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.planet-stat-inner{
+.planet-stat-inner {
   /* background-color: lightgray; */
 
   height: 100%;
@@ -210,10 +183,9 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
-.planet-stat-heading{
+.planet-stat-heading {
   /* background-color: blue; */
 
   height: 30%;
@@ -224,16 +196,13 @@ body{
   align-items: center;
 
   font-weight: 450;
-
-  
 }
 
-.planet-stat-heading:first-child{
+.planet-stat-heading:first-child {
   justify-content: flex-start;
 }
 
-
-.planet-stat-desc{
+.planet-stat-desc {
   /* background-color: rgb(20, 187, 42); */
 
   height: 60%;
@@ -244,96 +213,86 @@ body{
   align-items: center;
 
   font-size: 3vw;
-
 }
 
-
-
-.footer-planet{
-    margin-top: 120vh;
-    
+.footer-planet {
+  margin-top: 120vh;
 }
-
-
 
 @keyframes spin {
-    from {
-      transform: rotate(0deg);
-    }
-  
-    to {
-      transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
   }
-  
-  @keyframes glitter {
-    0% {
-      transform: scale(0.8);
-      opacity: 0;
-    }
-    25% {
-      transform: scale(1.6);
-      opacity: 1;
-    }
-    50% {
-      transform: scale(0.8);
-      opacity: 0;
-    }
-    75% {
-      transform: scale(1.6);
-      opacity: 1;
-    }
-    100% {
-      transform: scale(0.8);
-      opacity: 0;
-    }
-  }
-  
 
-  .stars-container{
-    background-color: green;
-    
-    position: absolute;
+  to {
+    transform: rotate(360deg);
+  }
+}
 
-    height: 100vh;
-    width: 100%;
-
-    
-  }
-  html,
-  body {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    background: #000;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: none;
-    box-sizing: border-box;
-  }
-  
-  #space {
-    position: absolute;
-    height: 400vh;
-    width: 400vw;
-    left: -150vw;
-    top: -150vh;
-    overflow: hidden;
-    background: #000;
-    transform-origin: 50% 50%;
-    animation: spin 500s linear 0s infinite normal;
-  }
-  
-  .star {
-    position: absolute;
-    width: 1.4px;
-    height: 1.3px;
-    background: #fff;
+@keyframes glitter {
+  0% {
+    transform: scale(0.8);
     opacity: 0;
-    animation: glitter 8s ease-in 0s infinite normal;
   }
-    
+  25% {
+    transform: scale(1.6);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  75% {
+    transform: scale(1.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+}
+
+.stars-container {
+  background-color: green;
+
+  position: absolute;
+
+  height: 100vh;
+  width: 100%;
+}
+html,
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#space {
+  position: absolute;
+  height: 400vh;
+  width: 400vw;
+  left: -150vw;
+  top: -150vh;
+  overflow: hidden;
+  background: #000;
+  transform-origin: 50% 50%;
+  animation: spin 500s linear 0s infinite normal;
+}
+
+.star {
+  position: absolute;
+  width: 1.4px;
+  height: 1.3px;
+  background: #fff;
+  opacity: 0;
+  animation: glitter 8s ease-in 0s infinite normal;
+}
