@@ -185,7 +185,7 @@ nav {
 }
 .content > p {
   background: transparent;
-  background-color: #a7ff19;
+  /* background-color: #a7ff19; */
   font-size: 1.5vw;
   margin-top: 3vw;
   padding: 1vw;
@@ -265,7 +265,7 @@ nav {
 }
 
 .scroll-up {
-  background-color: #fdda0d;
+  /* background-color: #fdda0d; */
   transform: rotate(180deg);
 
   position: fixed;
@@ -550,7 +550,7 @@ footer {
   align-items: center;
 
   /* text-align: center; */
-  background-color: #fdda0d;
+  /* background-color: #fdda0d; */
   padding: 1vw;
   color: white;
   font-weight: bold;
@@ -612,6 +612,7 @@ footer {
 
 .pod-heading-inner > img {
   /* background-color: #3b3b3a; */
+
   height: 100%;
   width: auto;
   /* margin-right: 5vh; */
@@ -840,7 +841,7 @@ footer {
   /* background-color: plum; */
 
   height: 100%;
-  width: 40%;
+  width: 50%;
 
   display: flex;
   justify-content: center;
