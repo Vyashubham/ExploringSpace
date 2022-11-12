@@ -8,10 +8,9 @@ TODO:
 3. make elements more responsive
 4. add sticky nav and footer --> replace the current ones
 5. make website UI consistent 
-6. make webstie colors consistent
-7. make mobile view
-8. optmize for SEO
-9. fav-icon update
+6. make mobile view
+7. optmize for SEO
+8. update README.md
 
 
 re-use sections 
@@ -20,7 +19,6 @@ re-use sections
     c. logo section 
     d. space-facts card
     e. tools card
-AIzaSyDUTXOU3nmqtMBlqo_CFxpKkZPqnUj4G8s
 
 FIXES NEEDED: 
 
