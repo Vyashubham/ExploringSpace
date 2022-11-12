@@ -29,7 +29,7 @@ async function pod() {
     }
   }
   catch(err) {
-    console.log("yup!");
+    // console.log("yup!");
     split = 5;
     for (let i = 0; i < split; i++) {
       var mydiv = document.getElementById("spacefolks1");
@@ -42,7 +42,7 @@ async function pod() {
     }
 
     for (let i = split; i < people.length; i++) {
-      console.log("2nd for");
+      // console.log("2nd for");
       var mydiv = document.getElementById("spacefolks2");
       var aTag = document.createElement("a");
       aTag.setAttribute(
